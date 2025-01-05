@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const db = async () => {
     try {
-        await mongoose.connect(process.env.MONGODB_URI || 'MONGODB://127.0.0.1:27017/socialmedia');
+        await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/socialmedia');
         console.log('Database connected.');
         return mongoose.connection;
     }
