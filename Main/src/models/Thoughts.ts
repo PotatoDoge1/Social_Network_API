@@ -29,7 +29,7 @@ const thoughtSchema = new Schema<IThought>(
     },
     {
         toJSON: {
-            //getters: true
+            getters: true
         },
             timestamps: true,
             id: false
