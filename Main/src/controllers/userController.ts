@@ -5,10 +5,10 @@ import { User /*Thoughts*/ } from '../models/index.js';
 export const createUser = async (req: Request, res: Response) => {
     try {
         const user = await User.create(req.body);
-        res.json(user);
-    } catch (error) {
+        return res.json(user);
+    } catch(error) {
         console.log('Error creating user.');
-        res.status(500).json(error);
+        return res.status(500).json(error);
     }
 }
 
