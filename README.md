@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
+- [Video Walkthrough](#video-walkthrough)
 - [Description](#description)
 - [Installation Instructions](#installation-instructions)
 - [Usage Information](#usage-information)
@@ -12,6 +13,11 @@
 - [Questions](#questions)
 - [License](#license)
 
+## Video Walkthrough
+[Download Link]
+
+[Back to ToC](#table-of-contents)  
+  
 ## Description
 Setting up a backend social network API. Users can be created, create thoughts, and create reactions.   
   
